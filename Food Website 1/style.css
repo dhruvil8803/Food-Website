@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+		*{
+			margin:0;
+			padding:0;}
+		body{
+			font-family: 'Montserrat', sans-serif;
+		}
+		html{
+			font-size: 62.5%;
+			box-sizing:border-box;
+		}
+		.container{
+			max-width: 1200px;
+			margin:0 auto;
+			width:90%;
+		}
+		header{
+			background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./image.jpg");
+			height:95vh;
+			width: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size:cover; 
+			position: relative;
+		}
+		
+		a{
+			text-decoration: none;
+		}
+		.hover{
+			color:white;
+		}
+		.hover:hover{
+          text-decoration: underline;
+		}
+		ul{
+			float:right;
+			list-style-type: none;
+			margin: 1em 0px;
+		}
+		.headingg{
+			font-size: 4rem;
+			font-weight: 500;
+			color: white;
+			letter-spacing: 0.2rem;
+			word-spacing: 0.4rem;
+			margin-bottom: 0.5em;
+		}
+		.logo{
+			float:left;
+			font-size: 3rem;
+			font-weight: 400;
+			padding:0.25em 0px;
+			color: white;
+		}
+		.items{
+			display: inline-block;
+			letter-spacing: 0.2rem;
+			padding:0 1rem;
+			font-size: 1.6rem;
+		}
+		nav::after{
+			content:'';
+			display: block;
+			clear: both;
+		}
+		 .paragraph{
+			font-size: 1.6rem;
+			word-spacing: 0.2rem;
+			color: white;
+			margin-bottom: 1em;
+		}
+		.mainsex{
+			position: absolute;
+			top:50%;
+			left:50%;
+			text-align:center;
+			transform: translate(-50%, -50%);
+			background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+		}
+		.button{
+         background-color: white;
+         border-radius: 100px;
+         color:#33cc33;
+         font-size: 1.6rem;
+         font-weight: 400;
+         /*border:2px solid #33cc33;*/
+         display: inline-block;
+         margin: 0.5rem 0px;
+         padding: 0.5rem;
+		}
+		/*#####################################ShowPiece Section########################*/
+		.section1{
+		 padding: 10rem 0px;
+		 background-color:#ddd;
+		 width:100%;
+		}
+		.row{
+          height:350px;
+          background-color:white;
+          color:#808080;
+          box-shadow: 10px 10px 10px #aaa;
+		}
+		.row1{
+			margin-bottom:10rem;
+		}
+		.row1 .img, .row2 .img{
+			box-sizing: border-box;
+		}
+		.row1 .text, .row2 .text{
+			box-sizing: border-box;
+		}
+		.row1 .img, .row2 .text{
+			float: left;
+			width:50%;
+		}
+		.row2 .img, .row1 .text{
+			float: right;
+			width:50%;
+		}
+		.row1::after, .row2::after{
+			content:'';
+			display: block;
+			clear:both;
+		}
+		.row .img{
+			height:100%;
+		}
+		.row1 .img img ,.row2 .img img{
+	     height:100%;
+	     object-fit:cover;
+	     object-position: center;
+	     width:100%;
+		}
+		.text{
+			padding:2rem;
+		}
+		.label{
+			font-size: 3rem;
+			font-weight: 400;
+			margin-bottom: 0.4em;
+			letter-spacing:0.2rem;
+		}
+		.label-para{
+			font-size: 1.6rem;
+			font-weight: 300;
+			margin-bottom: 0.5em;
+		}
+		.bbt{
+			border: 2px solid #33cc33;
+		}
+		.bbt:hover{
+            background-color: #d6f5d6;
+		}
+		/*#######################SecondShowCase################*/
+		.section2{
+			padding:10rem 0;
+		}.holder{
+			box-shadow: 10px 10px 10px #aaa;
+		}
+		.boxing{
+			box-sizing: border-box;
+			width:33.33%;
+			float:left;
+			text-align:center;
+			padding: 2.5rem;
+			color:white;
+		}
+		.holder::after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+		.paraof{
+			font-size: 1.4rem;
+		}
+		.box1, .box3{
+			background-color: #263238;
+		}
+		.box2{
+			background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+		}
+		.color1{
+			color:#e63946;
+		}
+		/*################footer################*/
+		.lastholder{
+			padding: 2rem;
+			text-align: center;
+			background-color:#263238;
+			color: white;
+		}
+		.social i{
+          margin:2rem;
+		}
+
+		/*#####################Style Of About us page############################*/
+		.navigation{
+			background-color:#263238;
+		}
+		.about{
+			padding:1rem 0;
+		}
+		.labelian::after{
+           content:'';
+           display:block;
+           border: 2px solid #e63946;
+		}
+		.check{
+			margin-top: 1rem;
+			width:100%;
+		}
+		.checked{
+			box-sizing:border-box;
+			float:left;
+			width:50%;
+			text-align: center;
+			padding-top: 1.5rem;
+		}
+		.check::after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+		.parad{
+			display:inline;
+			font-size: 1.2rem;
+			color:#808080;
+		}
+		.parad::after{
+			content:'';
+			display: block;
+			margin-top: 1rem;
+		}
+		.databox{
+			box-sizing:border-box;
+			float:left;
+			width:25%;
+			text-align: center;
+		}
+		.data::after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+		.labels{
+			font-size: 3rem;
+			font-weight: 500;
+			margin-bottom: 0.2em;
+			letter-spacing:0.2rem;
+		}
+		.labels-para{
+			font-size: 1.6rem;
+			font-weight: 300;
+		}
+		.banner{
+			margin-top:1rem;
+			height: 5rem;
+			padding:0.4rem;
+			color:white;
+			background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+			box-shadow: 10px 10px 10px #aaa;
+		}
+		.bannerpara{
+			float: left;
+			display:inline-block;
+			margin-top:1rem;
+			font-size:1.5rem;
+		}
+		.bannerb{
+			margin-top:0.4rem;
+			border:2px solid white;
+			float: right;
+			display:inline-block;
+			padding:1rem;
+			width:14rem;
+			text-align:center;
+			font-size:1.4rem;
+			font-family: 500;
+			color:white;
+		}
+		.banner::after
+		{
+			content:'';
+			display:block;
+			clear:both;
+		}
+		/*###########################contactpage##########*/
+		.contact{
+             padding:5rem 0;
+             background-color: #f7f7f7;
+		}
+		.form{
+			float:right;
+			width:49%;
+			background-color: white;
+			box-sizing:border-box;
+			padding:1rem;
+			height:53rem;
+			box-shadow: 10px 10px 10px #aaa;
+		}
+		.address{
+			float:left;
+			width:49%;
+			background-color: white;
+			padding:1rem;
+			box-sizing: border-box;
+			height:53rem;
+			box-shadow: 10px 10px 10px #aaa;
+		}
+		.contacter::after{
+			content:'';
+           display:block;
+           clear: both;
+		}
+		.contact .contacter .info i{
+			display: inline;
+			padding-right:2rem;
+		}
+		.infotitle{
+			display: inline;
+			color: #808080;
+			font-size:2rem;
+		}
+		.infopara{
+			color: #808080;
+			font-size:1.4rem;
+			padding-top:0.7rem;
+		}
+		.info{
+			margin-bottom:1rem;
+		}
+		.photo{
+			width:90%;
+			min-height: 20rem;
+			height:300px;
+			box-shadow: 10px 10px 10px #aaa;
+			object-fit: cover;
+		}
+		.labelled{
+			color: #808080;
+			font-size:1.6rem;
+		}
+		.input, .textarea{
+        display: block;
+        width:100%;
+		}
+		.labelled::after{
+			content:'*';
+			color:#e63946;
+		}
+		.userinfo{
+			margin-bottom:1rem;
+		}
+		.textarea{
+			height:20rem;
+		}
+		.formbutton{
+			display:block;
+			color:white;
+			background-color:#e63946;
+			margin:0 auto;
+			font-size: 2rem;
+			padding:0.5rem 3rem;
+			outline:none;
+			border:none;
+			cursor: pointer;
+		}
+		.using{
+			margin:1rem 0;
+		}
+		/*#################Media Query#####################*/
+		@media (max-width:500px){
+			html{
+				font-size:32.25%;
+			}
+			.logo, ul{
+				float:none;
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+			ul{
+				padding:2rem 0;
+			}
+			.row1 .img, .row1 .text, .row2 .img, .row2 .text{
+				float:none;
+				display:block;
+				width:100%;
+				height:50%;
+				text-align: center;
+			}
+			.boxing{
+				float:none;
+				display:block;
+				width:100%;
+				height:auto;
+			}
+			.bannerpara,.bannerb{
+				float:none;
+				display: block;
+				text-align: center;
+			}
+			.banner{
+				height:auto;
+			}
+			.bannerb{
+				margin:1rem auto;
+
+			}
+			.form, .address{
+				float:none;
+				display:block;
+				width:100%;
+				height:auto;
+			}
+			.address{
+				margin-bottom:10rem;
+			}
+			.formbutton{
+				margin: 1rem auto;
+			}
+		}
+		@media (min-width:501px) and (max-width:1000px){
+			html{
+				font-size:50%;
+			}
+			.logo, ul{
+				float:none;
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+			ul{
+				padding:2rem 0;
+			}
+			.row1 .img, .row1 .text, .row2 .img, .row2 .text{
+				float:none;
+				display:block;
+				width:100%;
+				height:50%;
+				text-align: center;
+			}
+			.row{
+				height:130rem;
+			}
+			.row1 .img, .row2 .img{
+             object-fit:cover;
+			}
+			.boxing{
+				float:none;
+				display:block;
+				width:100%;
+				height:auto;
+			}
+			.bannerpara,.bannerb{
+				float:none;
+				display: block;
+				text-align: center;
+			}
+			.banner{
+				height:auto;
+			}
+			.bannerb{
+				margin:1rem auto;
+
+			}
+			.form, .address{
+				float:none;
+				display:block;
+				width:100%;
+				height:auto;
+			}
+			.address{
+				margin-bottom:10rem;
+			}
+			.formbutton{
+				margin: 1rem auto;
+			}
+		}
+		@media (orientation:landscape) and (max-height:500px){
+			header{
+				height:90vw;
+			}
+		}
